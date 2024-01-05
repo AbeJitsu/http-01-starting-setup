@@ -60,6 +60,8 @@ export default {
         rating: this.chosenRating,
       });
 
+      fetch('https://vue-http-class-udemy-default-rtdb.firebaseio.com/');
+
       this.enteredName = '';
       this.chosenRating = null;
     },
